@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "PaidBy": [{ "id": 1, "name": "Alice", "amount": 50 }],
+    "SplitTo": [
+      { "id": 2, "name": "Bob", "amount": 25 },
+      { "id": 3, "name": "Charlie", "amount": 25 }
+    ],
+    "note": "Dinner at a restaurant",
+    "time": "2025-02-10T19:30:00Z"
+  },
+  {
+    "id": 2,
+    "PaidBy": [{ "id": 2, "name": "Bob", "amount": 80 }],
+    "SplitTo": [
+      { "id": 4, "name": "Dave", "amount": 40 },
+      { "id": 5, "name": "Emma", "amount": 40 }
+    ],
+    "note": "Grocery shopping",
+    "time": "2025-02-11T14:00:00Z"
+  },
+  {
+    "id": 3,
+    "PaidBy": [{ "id": 3, "name": "Charlie", "amount": 60 }],
+    "SplitTo": [
+      { "id": 1, "name": "Alice", "amount": 30 },
+      { "id": 2, "name": "Bob", "amount": 30 }
+    ],
+    "note": "Movie tickets",
+    "time": "2025-02-12T20:15:00Z"
+  },
+  {
+    "id": 4,
+    "PaidBy": [{ "id": 4, "name": "Dave", "amount": 100 }],
+    "SplitTo": [
+      { "id": 3, "name": "Charlie", "amount": 50 },
+      { "id": 5, "name": "Emma", "amount": 50 }
+    ],
+    "note": "Weekend trip expenses",
+    "time": "2025-02-13T10:45:00Z"
+  },
+  {
+    "id": 5,
+    "PaidBy": [{ "id": 5, "name": "Emma", "amount": 90 }],
+    "SplitTo": [
+      { "id": 1, "name": "Alice", "amount": 45 },
+      { "id": 2, "name": "Bob", "amount": 45 }
+    ],
+    "note": "Concert tickets",
+    "time": "2025-02-14T21:00:00Z"
+  },
+  {
+    "id": 6,
+    "PaidBy": [{ "id": 1, "name": "Alice", "amount": 120 }],
+    "SplitTo": [
+      { "id": 3, "name": "Charlie", "amount": 60 },
+      { "id": 4, "name": "Dave", "amount": 60 }
+    ],
+    "note": "Hotel stay",
+    "time": "2025-02-15T18:30:00Z"
+  },
+  {
+    "id": 7,
+    "PaidBy": [{ "id": 2, "name": "Bob", "amount": 110 }],
+    "SplitTo": [
+      { "id": 5, "name": "Emma", "amount": 55 },
+      { "id": 1, "name": "Alice", "amount": 55 }
+    ],
+    "note": "Car rental",
+    "time": "2025-02-16T09:00:00Z"
+  },
+  {
+    "id": 8,
+    "PaidBy": [{ "id": 3, "name": "Charlie", "amount": 70 }],
+    "SplitTo": [
+      { "id": 4, "name": "Dave", "amount": 35 },
+      { "id": 5, "name": "Emma", "amount": 35 }
+    ],
+    "note": "Electricity bill",
+    "time": "2025-02-17T12:15:00Z"
+  },
+  {
+    "id": 9,
+    "PaidBy": [{ "id": 4, "name": "Dave", "amount": 50 }],
+    "SplitTo": [
+      { "id": 1, "name": "Alice", "amount": 25 },
+      { "id": 2, "name": "Bob", "amount": 25 }
+    ],
+    "note": "Lunch with friends",
+    "time": "2025-02-18T13:00:00Z"
+  },
+  {
+    "id": 10,
+    "PaidBy": [{ "id": 5, "name": "Emma", "amount": 60 }],
+    "SplitTo": [
+      { "id": 3, "name": "Charlie", "amount": 30 },
+      { "id": 4, "name": "Dave", "amount": 30 }
+    ],
+    "note": "Monthly WiFi bill",
+    "time": "2025-02-19T08:30:00Z"
+  },
+  {
+    "id": 11,
+    "PaidBy": [{ "id": 1, "name": "Alice", "amount": 75 }],
+    "SplitTo": [
+      { "id": 2, "name": "Bob", "amount": 37.5 },
+      { "id": 3, "name": "Charlie", "amount": 37.5 }
+    ],
+    "note": "Birthday gift for a friend",
+    "time": "2025-02-20T16:45:00Z"
+  },
+  {
+    "id": 12,
+    "PaidBy": [{ "id": 2, "name": "Bob", "amount": 95 }],
+    "SplitTo": [
+      { "id": 4, "name": "Dave", "amount": 47.5 },
+      { "id": 5, "name": "Emma", "amount": 47.5 }
+    ],
+    "note": "Home cleaning service",
+    "time": "2025-02-21T11:30:00Z"
+  },
+  {
+    "id": 13,
+    "PaidBy": [{ "id": 3, "name": "Charlie", "amount": 65 }],
+    "SplitTo": [
+      { "id": 1, "name": "Alice", "amount": 32.5 },
+      { "id": 2, "name": "Bob", "amount": 32.5 }
+    ],
+    "note": "Dinner outing",
+    "time": "2025-02-22T19:30:00Z"
+  },
+  {
+    "id": 14,
+    "PaidBy": [{ "id": 4, "name": "Dave", "amount": 85 }],
+    "SplitTo": [
+      { "id": 3, "name": "Charlie", "amount": 42.5 },
+      { "id": 5, "name": "Emma", "amount": 42.5 }
+    ],
+    "note": "Gas bill",
+    "time": "2025-02-23T14:15:00Z"
+  },
+  {
+    "id": 15,
+    "PaidBy": [{ "id": 5, "name": "Emma", "amount": 70 }],
+    "SplitTo": [
+      { "id": 1, "name": "Alice", "amount": 35 },
+      { "id": 2, "name": "Bob", "amount": 35 }
+    ],
+    "note": "Theater tickets",
+    "time": "2025-02-24T18:00:00Z"
+  }
+]
