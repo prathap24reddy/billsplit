@@ -31,18 +31,13 @@ BillSplit is an expense management system designed to simplify group expense tra
    ```sh
    npm install
    ```
-4. Set up environment variables in a `.env` file:
-   ```env
-   DATABASE_URL=your_postgresql_connection_string
-   JWT_SECRET=your_jwt_secret
-   ```
-5. Run the server:
+4. Run the server:
    ```sh
-   npm start
+   node index.js
    ```
-6. Open the frontend:
+5. Open the frontend:
    ```sh
-   cd client
+   cd frontend
    npm start
    ```
 
